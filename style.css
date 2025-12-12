@@ -5,6 +5,35 @@ body {
     background: #f6f6f6;
 }
 
+/* Navigation Bar */
+.navbar {
+    background: #222;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #58a6ff;
+}
+
 .container {
     width: 80%;
     max-width: 900px;
@@ -54,14 +83,11 @@ p, li {
     color: #333;
 }
 
-.contact-info p {
-    margin: 3px 0;
-}
-
 .section {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
+/* Tags/Skills */
 .tags {
     margin-top: 10px;
 }
@@ -81,7 +107,7 @@ p, li {
 }
 
 .cert-list a {
-    color: #2a6df4;
+    color: #1a73e8;
     text-decoration: none;
 }
 
